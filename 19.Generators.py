@@ -14,8 +14,9 @@ def odd():
 o = odd()
 
 result = next(o)
-
+print(result)
 result2 = next(o)
+print(result2)
 
 # --- 实战 2: 内存占用对比 ---
 print("2. [性能] 生成器 vs 列表 内存大比拼")
